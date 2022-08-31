@@ -1,0 +1,26 @@
+{
+  "name": "@rayconnect/socket-io-server-transporter",
+  "version": "0.0.0",
+  "description": "Rayconnect realtime socket io server transporter",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc build"
+  },
+  "keywords": [
+    "rayconnect",
+    "0tasad"
+  ],
+  "author": {
+    "name": "0tasad",
+    "email": "middle-end+rayconnect@0tasad.studio"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@rayconnect/realtime": "^0.0.0",
+    "socket.io": "^4.5.1"
+  }
+}
